@@ -30,8 +30,8 @@ Q:: Why is it a security risk for a project to have outdated dependencies?
 A:: Outdated dependencies are a risk because new vulnerabilities are constantly being discovered in software components. An old version of a component might contain a known security flaw that attackers can exploit. Dependabot helps mitigate this risk by flagging outdated dependencies that have known security advisories.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/introduction-github-advanced-security/3-create-culture-around-security)
 
-Q:: Complete the sentence: To secure a project, GHAS uses Code Scanning to inspect the ______, Secret Scanning to protect ______, and Dependabot to manage the security of its ______.
-A:: ...Code Scanning to inspect the **code's blueprints** (for vulnerabilities), Secret Scanning to protect **secrets** (like passwords and keys), and Dependabot to manage the security of its **dependencies** (third-party parts).
+Q:: (Cloze) To secure a project, GHAS uses Code Scanning to inspect the {{c1::code's blueprints}}, Secret Scanning to protect {{c2::secrets}}, and Dependabot to manage the security of its {{c3::dependencies}}.
+A:: (Cloze) To secure a project, GHAS uses Code Scanning to inspect the code's blueprints (for vulnerabilities), Secret Scanning to protect secrets (like passwords and keys), and Dependabot to manage the security of its dependencies (third-party parts).
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/introduction-github-advanced-security/6-summary)
 
 #### Chapter 2 - 2 Configure Dependabot Security Updates On Your Github Repo
@@ -90,9 +90,10 @@ Q:: To ensure the correct security team is notified when a secret is found, wher
 A:: You must go to the **Advanced Security settings** of the repository. This is the central location for managing the configuration of all advanced security features, including who receives alerts.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/configure-use-secret-scanning-github-repository/4-use-secret-scanning)
 
-Q:: Complete the sentence: For a single organization, you can define up to 500 ____ to extend Secret Scanning's capabilities to find unique, internally-defined credentials.
-A:: ...500 **custom patterns**...
+Q:: (Cloze) For a single organization, you can define up to {{c1::500 custom patterns}} to extend Secret Scanning's capabilities to find unique, internally-defined credentials.
+A:: (Cloze) For a single organization, you can define up to 500 custom patterns to extend Secret Scanning's capabilities to find unique, internally-defined credentials.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/configure-use-secret-scanning-github-repository/3-configure-secret-scanning)
+
 
 #### Chapter 4 - 4 Configure Code Scanning On Github
 
@@ -144,8 +145,8 @@ Q:: What is the most direct way to optimize a slow CodeQL analysis without chang
 A:: The most direct way is to increase the system resources available to the analysis, specifically by **increasing the memory (RAM)** and/or the number of CPU cores. More resources allow the CodeQL engine to process the database and queries more quickly.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/codebase-representation-codeql/5-troubleshoot-your-results)
 
-Q:: Complete the sentence: The hierarchical command structure for using the CodeQL command-line tool follows the format `codeql` ____ ____.
-A:: ...`codeql` **[command]** **[subcommand]**.
+Q:: (Cloze) The hierarchical command structure for using the CodeQL command-line tool follows the format codeql {{c1::[command]}} {{c2::[subcommand]}}.
+A:: (Cloze) The hierarchical command structure for using the CodeQL command-line tool follows the format codeql [command] [subcommand].
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/codebase-representation-codeql/3-run-codeql-database)
 
 #### Chapter 2 - 2 Code Scanning With Github Codeql
@@ -170,8 +171,8 @@ Q:: When does CodeQL's `autobuild` feature typically fail, and what must a devel
 A:: The `autobuild` feature typically fails when a project has a complex, non-standard, or unique build process. To overcome this, the developer must provide their own **custom build steps** in the workflow file, explicitly telling CodeQL how to compile the code before it can be analyzed.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/code-scanning-with-github-codeql/10-custom-build-steps-for-code-scanning)
 
-Q:: To achieve advanced customization, such as disabling default queries or ignoring specific directories, you would use a dedicated ____ file instead of modifying the main workflow.
-A:: ...dedicated **custom configuration file** (or `codeql-config.yml` file)...
+Q:: (Cloze) To achieve advanced customization, such as disabling default queries or ignoring specific directories, you would use a dedicated {{c1::custom configuration file}} instead of modifying the main workflow.
+A:: (Cloze) To achieve advanced customization, such as disabling default queries or ignoring specific directories, you would use a dedicated custom configuration file (or codeql-config.yml file) instead of modifying the main workflow.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/code-scanning-with-github-codeql/6-customize-your-scanning-workflow-with-codeql)
 
 #### Chapter 3 - 3 Github Administration For Github Advanced Security
@@ -196,8 +197,8 @@ Q:: When configuring a security workflow in GitHub Actions, what is the critical
 A:: You must apply the **principle of least privilege** by correctly setting up the permissions for the `GITHUB_TOKEN`. The token should only be granted the minimum permissions necessary for the workflow to complete its job, which reduces the potential risk if the workflow were ever compromised.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/github-administration-github-advanced-security/5-manage-github-advanced-security-features-alerts)
 
-Q:: To enforce the use of GHAS features across your company, you can create organization-wide _____.
-A:: ...organization-wide **security policies**.
+Q:: (Cloze) To enforce the use of GHAS features across your company, you can create organization-wide {{c1::security policies}}.
+A:: (Cloze) To enforce the use of GHAS features across your company, you can create organization-wide security policies.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/github-administration-github-advanced-security/4-manage-access-github-advanced-security)
 
 #### Chapter 4 - 4 Manage Sensitive Data And Security Policies Within Github
@@ -222,13 +223,13 @@ Q:: If you discover that sensitive data has been accidentally committed to a rep
 A:: The **audit log**. It provides a detailed, time-stamped record of all repository actions, allowing you to identify the specific user and commit that introduced the sensitive data, which is the critical first step in the incident response process.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/manage-sensitive-data-security-policies/4-report-logs)
 
-Q:: To communicate security policies, such as supported versions and how to report a flaw, you should create a ____ file in your repository.
-A:: ...a **`SECURITY.md`** file...
+Q:: (Cloze) To communicate security policies, such as supported versions and how to report a flaw, you should create a {{c1::SECURITY.md}} file in your repository.
+A:: (Cloze) To communicate security policies, such as supported versions and how to report a flaw, you should create a SECURITY.md file in your repository.
 [Documentation Link](https://learn.microsoft.com/en-us/training/modules/manage-sensitive-data-security-policies/2-set-security-policies)
 
 ### Part III - Extra: GitHub Certified Advanced Security
 
-#### Chapter 1 - Questions
+#### Chapter 1 - Exam preparation questions
 
 Q:: What is CodeQL?
 
