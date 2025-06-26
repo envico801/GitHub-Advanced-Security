@@ -12,36 +12,50 @@ This study guide is designed for security engineers, DevOps professionals, and d
 
 ## 🎯 Exam Objectives & Detailed Resources
 
-The GH-500 exam measures proficiency across key domains. Click each objective link to find a detailed breakdown mapped to Microsoft Learn modules and documentation.
-
-* [Plan and configure GitHub Advanced Security features](./plan-and-configure-ghas-features/README.md)
-* [Implement code scanning workflows](./implement-code-scanning-workflows/README.md)
-* [Utilize and manage secret scanning](./utilize-manage-secret-scanning/README.md)
-* [Enforce secure development workflows and code review](./enforce-secure-development-workflows/README.md)
+(pending addition)
 
 ## 💡 Preparation Tips
 
-* **Hands-on Practice:** Enable GHAS on a sample repository and walk through code scanning setup, secret scanning, and dependency review alerts.
-* **Review Official Docs:** Familiarize yourself with [GitHub Advanced Security documentation](https://learn.microsoft.com/en-us/github/advanced-security/) and the exam skills outline.
-* **Understand Workflows:** Know how to configure and customize GitHub Actions for scanning, triaging alerts, and integrating with issue trackers.
+- **Hands-on Practice:** Enable GHAS on a sample repository and walk through code scanning setup, secret scanning, and dependency review alerts.
+- **Review Official Docs:** Familiarize yourself with [GitHub Advanced Security documentation](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-500) and the exam skills outline.
+- **Understand Workflows:** Know how to configure and customize GitHub Actions for scanning, triaging alerts, and integrating with issue trackers.
 
 ## 📚 Core Study Resources
 
-* **Certification Page:** [GitHub Advanced Security Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/)
-* **Browse GitHub Credentials:** [GitHub Certifications](https://learn.microsoft.com/en-us/credentials/browse/?products=github)
-* **Official Training Course:** [GH-500T00: GitHub Advanced Security Workshop](https://learn.microsoft.com/en-us/training/courses/gh-500t00)
+- **Certification Page:** [GitHub Advanced Security Certification](https://learn.microsoft.com/en-us/credentials/certifications/github-advanced-security/)
+- **Browse GitHub Credentials:** [GitHub Certifications](https://learn.microsoft.com/en-us/credentials/browse/?products=github)
+- **Official Training Course:** [GH-500T00: GitHub Advanced Security Workshop](https://learn.microsoft.com/en-us/training/courses/gh-500t00)
 
-## 📝 Practice Questions & Assessments
+## 🧠 Flashcards & Memory Aids
 
-* **Practice Assessment:** Available through the certification page under "Practice assessment".
-* **Lab Exercises:** Create and secure a sample repo with GHAS features: code scanning, secret scanning, and dependency review.
+Import the provided Anki deck ([./anki/GitHub\_\_Advanced Security (GHAS)\_\_MGAS - Github advanced security - microsoft learn.apkg](https://github.com/envico801/GitHub-Advanced-Security/tree/main/anki)) for spaced-repetition of key terms, definitions, and code snippets. Includes all the questions contained in this repository in a single file.
+
+## 📝 Practice Questions
+
+Test your knowledge with official practice assessments:
+
+- **Microsoft Learn Practice Assessment:** [Official GH-500 GitHub Advanced Security Practice Questions](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/practice/assessment?assessment-type=practice&assessmentId=61&practice-assessment-type=certification)
 
 ## 🔬 Hands-on Labs & Projects
 
-* **GitHub Learning Lab:** [Secure your code with GitHub Advanced Security](https://lab.github.com/) (search for GHAS labs)
-* **Sample Repo:** `/labs/github-advanced-security-samples`
+Explore these interactive labs from the **Securing Your Code with GitHub** workshop:
 
----
+| 🧪 Lab | Title | Description |
+| -------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lab 1 | **[GitHub Advanced Security Feature Introduction](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab1.md)** | Get introduced to GHAS—enable features like CodeQL, Dependabot, Secret Scanning, and more on the Juice Shop sample repository |
+| Lab 2 | **[Reviewing and Managing Security Alerts](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab2.md)** | Learn to triage and fix alerts generated during Lab 1 using GitHub’s security interface |
+| Lab 3 | **[Hands-on with Code Scanning](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab3.md)** | Inject bad code, set up a ruleset to block it, and use Copilot Autofix to remediate issues |
+| Lab 4 | **[Hands-on with Dependency Review](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab4.md)** | Use the Dependency Review workflow and ruleset enforcement to prevent vulnerable package additions |
+| Lab 5 | **[Hands-on with Secret Scanning](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab5.md)** | Test secret scanning and push protection—try committing a secret and observe how GitHub blocks it |
+| Lab 6 | **[Hands-on with Security Overview](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab6.md)** | Explore the Security Overview dashboard to understand alerts and coverage at an organization level |
+| EC Lab 1 | **[Extra Credit: Advanced CodeQL Setup](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab7-ec.md)** | Dive deeper by switching to advanced CodeQL configurations for more flexible scanning |
+| EC Lab 2 | **[Extra Credit: Custom Patterns for Secret Scanning](https://github.com/github-samples/securing-your-code/blob/main/_labs/lab8-ec.md)** | Create and test custom secret-scanning rules to catch non-standard secrets |
+
+______________________________________________________________________
+
+**OWASP Practice repositorie**: [https://github.com/juice-shop/juice-shop](https://github.com/juice-shop/juice-shop)
+
+______________________________________________________________________
 
 *⚠️ Work in progress - Not finished ⚠️*
 *Personal Study Material*
