@@ -1,14 +1,14 @@
 Q:: What is CodeQL?
 
-a) A code analysis tool
+a) A version control system
 
-b) A programming language
+b) A code analysis tool
 
-c) A text editor
+c) A programming language
 
-d) A version control system
+d) A text editor
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 A code analysis tool
 
@@ -16,15 +16,15 @@ Source: https://codeql.github.com/
 
 Q:: What does `shifting left` mean in the context of Security?
 
-a) Adopting security practices early in the development cycle
+a) Writing code in a language that is commonly used
 
-b) Writing code in a language that is commonly used
+b) Adopting security practices early in the development cycle
 
 c) Incorporating security practices right before hitting production
 
 d) Writing code without worrying about security
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Adopting security practices early in the development cycle
 
@@ -32,15 +32,15 @@ Source: https://github.com/readme/guides/github-advanced-security-telus
 
 Q:: What are Repository Security Advisories?
 
-a) A private space where repository maintainers can discuss vulnerabilities and security issues within the codebase.
+a) A list of security issues that are publicly available for anyone to see and stay away from.
 
-b) GitHub security experts that help GitHub Enterprise users with their security issues.
+b) It's a place to gather and publicly discuss security issues in the open source community.
 
-c) A list of security issues that are publicly available for anyone to see and stay away from.
+c) A private space where repository maintainers can discuss vulnerabilities and security issues within the codebase.
 
-d) It's a place to gather and publicly discuss security issues in the open source community.
+d) GitHub security experts that help GitHub Enterprise users with their security issues.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 A private space where repository maintainers can discuss vulnerabilities and security issues within the codebase.
 
@@ -52,11 +52,11 @@ a) Dependabot
 
 b) Security Advisories
 
-c) CodeQL
+c) GitHub Actions
 
-d) GitHub Actions
+d) CodeQL
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Dependabot
 
@@ -64,15 +64,15 @@ Source: https://docs.github.com/en/code-security/dependabot
 
 Q:: Which of the following is a curated list of security vulnerabilities found in open source projects?
 
-a) GitHub Advisory Database
+a) GitHub Security Journal
 
 b) CodeQL
 
-c) Dependabot
+c) GitHub Advisory Database
 
-d) GitHub Security Journal
+d) Dependabot
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 GitHub Advisory Database
 
@@ -80,23 +80,23 @@ Source: https://docs.github.com/en/code-security/security-advisories/working-wit
 
 Q:: Which of these GitHub security features are available for FREE for both public and private personal repositories? (Choose four.)
 
-a) Security Policy
+a) Security advisories
 
-b) Security advisories
+b) Code scanning
 
-c) Dependabot alerts and security updates
+c) Secret scanning
 
-d) Dependabot version updates
+d) Dependabot secret scanning
 
-e) Dependabot code scanning
+e) Dependabot alerts and security updates
 
-f) Dependabot secret scanning
+f) Dependabot code scanning
 
-g) Secret scanning
+g) Security Policy
 
-h) Code scanning
+h) Dependabot version updates
 
-A:: **Answer(s):** A, B, C, D
+A:: <span style="color: #f800f8">**Answer(s): G, A, E, H</span>
 
 Security Policy; Security advisories; Dependabot alerts and security updates; Dependabot version updates
 
@@ -104,15 +104,15 @@ Source: https://docs.github.com/en/code-security/getting-started/github-security
 
 Q:: Which of these best describes secret scanning?
 
-a) Secret scanning scans your repository for secrets such as private keys or tokens.
+a) Secret scanning is a git hook that will scan your commits for secrets such as private keys or tokens before they are pushed to GitHub.
 
-b) Secret scanning scans your repository for potential code vulnerabilities that could expose secrets such as private keys or tokens.
+b) Secret scanning is a tool for secure secret storage and management.
 
-c) Secret scanning is a tool for secure secret storage and management.
+c) Secret scanning scans your repository for secrets such as private keys or tokens.
 
-d) Secret scanning is a git hook that will scan your commits for secrets such as private keys or tokens before they are pushed to GitHub.
+d) Secret scanning scans your repository for potential code vulnerabilities that could expose secrets such as private keys or tokens.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Secret scanning scans your repository for secrets such as private keys or tokens.
 
@@ -120,17 +120,17 @@ Source: https://docs.github.com/en/code-security/secret-scanning/about-secret-sc
 
 Q:: Which parts of the repository are scanned by secret scanning? (Choose two.)
 
-a) Entire git history on all branches in the repository
+a) GitHub Environment secrets
 
-b) Titles, descriptions and comments in open and closed historical issues
+b) GitHub Repository secrets
 
-c) GitHub Repository secrets
+c) Entire git history on all protected branches in the repository
 
-d) GitHub Environment secrets
+d) Titles, descriptions and comments in open and closed historical issues
 
-e) Entire git history on all protected branches in the repository
+e) Entire git history on all branches in the repository
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): E, D</span>
 
 Entire git history on all branches in the repository; Titles, descriptions and comments in open and closed historical issues
 
@@ -138,15 +138,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/about-secret-sc
 
 Q:: What's the purpose of the Secret scanning partner program?
 
-a) Service Providers can partner with GitHub so that the format of their secrets can be recognized by GitHub secret scanning.
+a) GitHub Partner program allows enterprises and organizations with GitHub Advanced Security license to use GitHub secret scanning to scan their repositories.
 
-b) GitHub Partner program allows enterprises and organizations with GitHub Advanced Security license to use GitHub secret scanning to scan their repositories.
+b) Service Providers can partner with GitHub so that the format of their secrets can be recognized by GitHub secret scanning.
 
 c) GitHub partners with external security companies to provide secret scanning for GitHub repositories.
 
 d) It's a program where registered security professionals can in good faith report to GitHub any secrets they find in GitHub repositories and get paid rewards for it.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Service Providers can partner with GitHub so that the format of their secrets can be recognized by GitHub secret scanning.
 
@@ -154,11 +154,11 @@ Source: https://docs.github.com/en/code-security/secret-scanning/secret-scanning
 
 Q:: Public repositories owned by personal users as well as public repositories owned by organizations can use secret scanning for free.
 
-a) True
+a) False
 
-b) False
+b) True
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 True
 
@@ -166,15 +166,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/about-secret-sc
 
 Q:: How can you prevent commits containing cloud provider credentials from being pushed to GitHub?
 
-a) Enable a secret scanning push protection rule for your repository or organization.
+a) Create a GitHub Action that will scan your commits for secrets before they are pushed to GitHub.
 
-b) Include a `.gitignore` file in your repository that will ignore files containing secrets.
+b) Enable a branch protection rule for your repository.
 
-c) Create a GitHub Action that will scan your commits for secrets before they are pushed to GitHub.
+c) Enable a secret scanning push protection rule for your repository or organization.
 
-d) Enable a branch protection rule for your repository.
+d) Include a `.gitignore` file in your repository that will ignore files containing secrets.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Enable a secret scanning push protection rule for your repository or organization.
 
@@ -184,15 +184,15 @@ Q:: Which of these is true about the GitHub secret scanning partner program? (Ch
 
 a) It is a program where service providers can provide GitHub with the regex patterns of secrets that they issue so GitHub secret scanning can recognize them.
 
-b) When GitHub identifies a secret from a partnered service provider, it notifies the service provider about the leaked secret.
+b) The partner can take actions upon receiving notification from GitHub about a leaked secret, such as revoking the secret and informing the owner of the compromised secret.
 
-c) The partner can take actions upon receiving notification from GitHub about a leaked secret, such as revoking the secret and informing the owner of the compromised secret.
+c) When GitHub identifies a secret from a partnered service provider, it notifies the service provider about the leaked secret.
 
-d) It grants the partner access to the secret GitHub scanning API so that the service provider can scan GitHub repositories for secrets that match their format.
+d) GitHub has the ability to automatically revoke leaked secrets and notify the service provider that they have been invalidated by GitHub.
 
-e) GitHub has the ability to automatically revoke leaked secrets and notify the service provider that they have been invalidated by GitHub.
+e) It grants the partner access to the secret GitHub scanning API so that the service provider can scan GitHub repositories for secrets that match their format.
 
-A:: **Answer(s):** A, B, C
+A:: <span style="color: #f800f8">**Answer(s): A, C, B</span>
 
 It is a program where service providers can provide GitHub with the regex patterns of secrets that they issue so GitHub secret scanning can recognize them.; When GitHub identifies a secret from a partnered service provider, it notifies the service provider about the leaked secret.; The partner can take actions upon receiving notification from GitHub about a leaked secret, such as revoking the secret and informing the owner of the compromised secret.
 
@@ -200,15 +200,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/secret-scanning
 
 Q:: How can you exclude certain directories or files from secret scanning?
 
-a) By creating a `secret_scanning.yml` file and including paths that should not be scanned
+a) Include these files in the `.gitignore` file
 
-b) It's not possible to exclude specific files and/or directories from being scanned. Once you enable secret scanning for a repository, all files and directories will be scanned.
+b) By creating a `secret_scanning.yml` file and including paths that should not be scanned
 
-c) Include these files in the `.gitignore` file
+c) By creating a `dependabot.yml` file and including paths which should not be scanned
 
-d) By creating a `dependabot.yml` file and including paths which should not be scanned
+d) It's not possible to exclude specific files and/or directories from being scanned. Once you enable secret scanning for a repository, all files and directories will be scanned.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 By creating a `secret_scanning.yml` file and including paths that should not be scanned
 
@@ -218,13 +218,13 @@ Q:: You have included some fake secrets in your test code and they have been pic
 
 a) By creating a `secret_scanning.yml` file within which you declare paths where fake secrets are located, so scans will omit them
 
-b) Close the Secret Scanning Alert with `Used in tests` close reason
+b) In your test files, add a comment `#gh_ignore: fake secret` on the line where the fake secret is located.
 
-c) In your test files, add a comment `#gh_ignore: fake secret` on the line where the fake secret is located.
+c) By creating a `.github/codeql.yml` file within which you declare paths where fake secrets are located, so scans will omit them
 
-d) By creating a `.github/codeql.yml` file within which you declare paths where fake secrets are located, so scans will omit them
+d) Close the Secret Scanning Alert with `Used in tests` close reason
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): A, D</span>
 
 By creating a `secret_scanning.yml` file within which you declare paths where fake secrets are located, so scans will omit them; Close the Secret Scanning Alert with `Used in tests` close reason
 
@@ -234,13 +234,13 @@ Q:: You have accidentally committed your GitHub personal access token to a publi
 
 a) Consider the token compromised and delete it immediately
 
-b) Change the token's permissions to read-only
+b) Check if this token is used in any of your applications, if so - delete it.
 
-c) Overwrite the git history to mask the token
+c) Change the token's permissions to read-only
 
-d) Check if this token is used in any of your applications, if so - delete it.
+d) Overwrite the git history to mask the token
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Consider the token compromised and delete it immediately
 
@@ -248,15 +248,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/managing-alerts
 
 Q:: What is the behavior when a new secret pattern is added or updated in the GitHub secret scanning partner program?
 
-a) GitHub will run a scan of all historical code content in public repositories with secret scanning enabled
+a) GitHub will create an issue in all repositories with secret scanning enabled so the maintainers can check the repository for any secrets matching the new pattern
 
-b) GitHub will only scan for the new pattern in newly pushed commits in repositories with secret scanning enabled. If a secret of that pattern was already present in the repository, it will not be detected.
+b) GitHub will run a scan of all historical code content in public repositories with secret scanning enabled
 
 c) The GitHub partner has to deal with the historically leaked secrets and GitHub will only scan any new commits for the new pattern
 
-d) GitHub will create an issue in all repositories with secret scanning enabled so the maintainers can check the repository for any secrets matching the new pattern
+d) GitHub will only scan for the new pattern in newly pushed commits in repositories with secret scanning enabled. If a secret of that pattern was already present in the repository, it will not be detected.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 GitHub will run a scan of all historical code content in public repositories with secret scanning enabled
 
@@ -264,21 +264,21 @@ Source: https://docs.github.com/en/code-security/secret-scanning/about-secret-sc
 
 Q:: Who will be notified when a NEW secret is pushed and detected in a repository? (Choose five.)
 
-a) Repository Administrators
+a) Organization owners and enterprise owners, but only if they are administrators of repositories where secrets were leaked
 
-b) Security Managers
+b) Everyone with write access to the repository
 
-c) Users with custom roles with read/write access
+c) Security Managers
 
-d) Organization owners and enterprise owners, but only if they are administrators of repositories where secrets were leaked
+d) Commit authors
 
-e) Commit authors
+e) Users with custom roles with read/write access
 
-f) Everyone with write access to the repository
+f) Repository Administrators
 
 g) All Organization owners and enterprise owners
 
-A:: **Answer(s):** A, B, C, D, E
+A:: <span style="color: #f800f8">**Answer(s): F, C, E, A, D</span>
 
 Repository Administrators; Security Managers; Users with custom roles with read/write access; Organization owners and enterprise owners, but only if they are administrators of repositories where secrets were leaked; Commit authors
 
@@ -286,15 +286,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/managing-alerts
 
 Q:: When GitHub runs a scan of all historical code in enterprise repositories what is the notification behavior? (Select two.)
 
-a) GitHub notifies the enterprise owners and security managers, even if no secrets are found.
+a) GitHub notifies Repository administrators, security managers, and users with custom roles with read/write access whenever a secret is detected in a repository.
 
-b) GitHub notifies Repository administrators, security managers, and users with custom roles with read/write access whenever a secret is detected in a repository.
+b) GitHub notifies the commit authors of the commits that contain exposed secrets.
 
-c) GitHub notifies the enterprise owners and security managers, only if it detects exposed secrets.
+c) GitHub notifies the enterprise owners and security managers, even if no secrets are found.
 
-d) GitHub notifies the commit authors of the commits that contain exposed secrets.
+d) GitHub notifies the enterprise owners and security managers, only if it detects exposed secrets.
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): C, A</span>
 
 GitHub notifies the enterprise owners and security managers, even if no secrets are found.; GitHub notifies Repository administrators, security managers, and users with custom roles with read/write access whenever a secret is detected in a repository.
 
@@ -302,11 +302,11 @@ Source: https://docs.github.com/en/code-security/secret-scanning/managing-alerts
 
 Q:: Does GitHub use the same set of secret scanning patterns for both user alerts and push protection alerts?
 
-a) No, these are different sets of secret patterns
+a) Yes, its the same set of secret patterns
 
-b) Yes, its the same set of secret patterns
+b) No, these are different sets of secret patterns
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 No, these are different sets of secret patterns
 
@@ -314,19 +314,19 @@ Source: https://docs.github.com/en/code-security/secret-scanning/secret-scanning
 
 Q:: What are the three different sets of secret scanning patterns that GitHub maintains? (Select three.)
 
-a) Partner patterns
+a) Push protection patterns
 
-b) User alert patterns
+b) Open source alert patterns
 
-c) Push protection patterns
+c) Cloud provider patterns
 
 d) Enterprise alert patterns
 
-e) Open source alert patterns
+e) User alert patterns
 
-f) Cloud provider patterns
+f) Partner patterns
 
-A:: **Answer(s):** A, B, C
+A:: <span style="color: #f800f8">**Answer(s): F, E, A</span>
 
 Partner patterns; User alert patterns; Push protection patterns
 
@@ -334,15 +334,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/secret-scanning
 
 Q:: Multiple public repositories that you are contributing to do not have secret scanning push protection option enabled. What can you do to protect yourself from accidentally pushing secrets to these repositories?
 
-a) Enable `Push protection for yourself`, in your personal GitHub account settings
+a) Add the files containing secrets to `.gitignore` file in all of the repositories
 
-b) Download the GitHub push protection web plugin
+b) It's not possible, push protection has to be enabled on any of repository, organization or enterprise level
 
-c) It's not possible, push protection has to be enabled on any of repository, organization or enterprise level
+c) Enable `Push protection for yourself`, in your personal GitHub account settings
 
-d) Add the files containing secrets to `.gitignore` file in all of the repositories
+d) Download the GitHub push protection web plugin
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Enable `Push protection for yourself`, in your personal GitHub account settings
 
@@ -350,15 +350,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/push-protection
 
 Q:: Your company has internal secrets that should not be pushed to GitHub repositories. The pattern of these secrets is not known by GitHub and therefore is not detected by secret scanning. What can companies do to protect their developers from accidentally pushing these secrets to repositories in their GitHub Organization?
 
-a) Define regex patterns for these secrets and enable custom patterns for secret scanning for the organization.
+a) In all repositories include `secret_scanning.yml` file which will define these custom secrets that should be scanned for.
 
-b) The company should join the GitHub partner program so the pattern of the companies secrets is recognized.
+b) Define custom GitHub Actions workflows for repositories in the organization that will scan for these secrets.
 
-c) Define custom GitHub Actions workflows for repositories in the organization that will scan for these secrets.
+c) The company should join the GitHub partner program so the pattern of the companies secrets is recognized.
 
-d) In all repositories include `secret_scanning.yml` file which will define these custom secrets that should be scanned for.
+d) Define regex patterns for these secrets and enable custom patterns for secret scanning for the organization.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 Define regex patterns for these secrets and enable custom patterns for secret scanning for the organization.
 
@@ -368,13 +368,13 @@ Q:: What information do Dependabot alerts provide?
 
 a) Dependabot alerts tell you that your repository uses a package that is insecure.
 
-b) Dependabot alerts tell you that your repository is being used by other public repositories.
+b) Dependabot alerts tell you that your repository uses an untested version of a package.
 
-c) Dependabot alerts tell you that your repository uses an untested version of a package.
+c) Dependabot alerts tell you that your repository is being used by other public repositories.
 
 d) Dependabot alerts tell you that your repository uses an outdated version of a package
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Dependabot alerts tell you that your repository uses a package that is insecure.
 
@@ -382,15 +382,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-alerts/ab
 
 Q:: What is the GitHub dependency graph?
 
-a) It is a representation of a repository's dependencies and dependents.
+a) There is no such thing as the GitHub dependency graph.
 
-b) There is no such thing as the GitHub dependency graph.
+b) It is a GitHub maintained list of known vulnerabilities in open source software packages.
 
 c) It is a tool that automatically proposes version updates to dependencies in a repository.
 
-d) It is a GitHub maintained list of known vulnerabilities in open source software packages.
+d) It is a representation of a repository's dependencies and dependents.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 It is a representation of a repository's dependencies and dependents.
 
@@ -398,11 +398,11 @@ Source: https://docs.github.com/en/code-security/supply-chain-security/understan
 
 Q:: Is GitHub dependency graph available for free to all repositories?
 
-a) Yes, it's available for free for all repositories.
+a) No, it's available for free for public repositories only. Private repositories can use it if they have the GitHub Advanced Security license.
 
-b) No, it's available for free for public repositories only. Private repositories can use it if they have the GitHub Advanced Security license.
+b) Yes, it's available for free for all repositories.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Yes, it's available for free for all repositories.
 
@@ -410,15 +410,15 @@ Source: https://docs.github.com/en/code-security/supply-chain-security/understan
 
 Q:: How does GitHub Dependency graph know what dependencies your project is using? (Choose two.)
 
-a) GitHub derives dependencies automatically from manifests and lock files committed to the repository
+a) Dependencies can be manually added using the Dependency submission API
 
-b) Dependencies can be manually added using the Dependency submission API
+b) GitHub scans the repository code for import statements of external packages
 
-c) GitHub scans the repository code for import statements of external packages
+c) GitHub derives dependencies automatically from manifests and lock files committed to the repository
 
 d) It's required to add a GitHub Actions workflow that uses the official `actions/dependency-graph` GitHub Action to add dependencies to the graph whenever a new commit is pushed to the repository
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): C, A</span>
 
 GitHub derives dependencies automatically from manifests and lock files committed to the repository; Dependencies can be manually added using the Dependency submission API
 
@@ -426,19 +426,19 @@ Source: https://docs.github.com/en/code-security/supply-chain-security/understan
 
 Q:: When will the GitHub Dependency graph for your repository be updated? (Choose two.)
 
-a) When anyone pushes a change to the repository of one of your dependencies.
+a) When your repository publishes a new git tag.
 
-b) When you push a commit to the repository's default branch, only if that changes or adds a supported manifest/lockfile.
+b) When the GitHub Actions workflow that uses the `actions/dependency-graph` GitHub Action is triggered.
 
-c) When you push any commit to the repository's default branch.
+c) When you push a commit to the repository's default branch, only if that changes or adds a supported manifest/lockfile.
 
 d) When your repository publishes a new release.
 
-e) When your repository publishes a new git tag.
+e) When anyone pushes a change to the repository of one of your dependencies.
 
-f) When the GitHub Actions workflow that uses the `actions/dependency-graph` GitHub Action is triggered.
+f) When you push any commit to the repository's default branch.
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): E, C</span>
 
 When anyone pushes a change to the repository of one of your dependencies.; When you push a commit to the repository's default branch, only if that changes or adds a supported manifest/lockfile.
 
@@ -446,17 +446,17 @@ Source: https://docs.github.com/en/code-security/supply-chain-security/understan
 
 Q:: In what format can you export the GitHub Dependency graph of your repository?
 
-a) SPDX
+a) JSON
 
-b) YAML
+b) SPDX
 
-c) JSON
+c) XML
 
-d) XML
+d) YAML
 
 e) CSV
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 SPDX
 
@@ -468,7 +468,7 @@ a) Yes
 
 b) No
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Yes
 
@@ -480,11 +480,11 @@ a) Dependency graph
 
 b) Dependency review
 
-c) Dependency security updates
+c) Dependency version updates
 
-d) Dependency version updates
+d) Dependency security updates
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Dependency graph
 
@@ -492,19 +492,19 @@ Source: https://docs.github.com/en/code-security/supply-chain-security/understan
 
 Q:: Which of these statements about Dependabot Alerts are true? (Choose three.)
 
-a) They partially rely on the GitHub Advisory Database
+a) Dependabot Alerts are enabled by default for all public repositories
 
-b) To enable Dependabot Alerts you first need to have Dependency Graph enabled on your repository
+b) Dependabot Alerts are enabled by default for all repositories
 
-c) When GitHub identifies a vulnerable dependency, they generate a Dependabot alert and display it on the Security tab for the repository
+c) Dependabot alerts tell you that your repository uses an outdated version of a package
 
-d) Dependabot Alerts are enabled by default for all repositories
+d) When GitHub identifies a vulnerable dependency, they generate a Dependabot alert and display it on the Security tab for the repository
 
-e) Dependabot Alerts are enabled by default for all public repositories
+e) To enable Dependabot Alerts you first need to have Dependency Graph enabled on your repository
 
-f) Dependabot alerts tell you that your repository uses an outdated version of a package
+f) They partially rely on the GitHub Advisory Database
 
-A:: **Answer(s):** A, B, C
+A:: <span style="color: #f800f8">**Answer(s): F, E, D</span>
 
 They partially rely on the GitHub Advisory Database; To enable Dependabot Alerts you first need to have Dependency Graph enabled on your repository; When GitHub identifies a vulnerable dependency, they generate a Dependabot alert and display it on the Security tab for the repository
 
@@ -512,15 +512,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-alerts/ab
 
 Q:: What are the primary benefits of the Security Overview feature in GitHub?
 
-a) Centralized view of security alerts and policy management in an organization
+a) Automated dependency updates
 
-b) Automatic code review for every push
+b) Centralized view of security alerts and policy management in an organization
 
-c) Real-time threat detection
+c) Automatic code review for every push
 
-d) Automated dependency updates
+d) Real-time threat detection
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Centralized view of security alerts and policy management in an organization
 
@@ -530,13 +530,13 @@ Q:: What is CodeQL?
 
 a) A code analysis engine developed by GitHub
 
-b) A new programming language for security analysis
+b) A third-party tool for static code analysis
 
-c) A database used to store code scanning results
+c) A new programming language for security analysis
 
-d) A third-party tool for static code analysis
+d) A database used to store code scanning results
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 A code analysis engine developed by GitHub
 
@@ -544,15 +544,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/introduction-to-c
 
 Q:: What do Dependabot alerts indicate in GitHub?
 
-a) The presence of a vulnerable dependency or malware in your repository
+a) Conflicts between different dependencies
 
-b) Outdated dependencies that need to be updated
+b) The presence of a vulnerable dependency or malware in your repository
 
 c) Errors in dependency configuration files
 
-d) Conflicts between different dependencies
+d) Outdated dependencies that need to be updated
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 The presence of a vulnerable dependency or malware in your repository
 
@@ -560,15 +560,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-alerts/ab
 
 Q:: What is the purpose of code scanning in GitHub?
 
-a) To identify vulnerabilities and errors in code
+a) To synchronize code with production servers
 
-b) To check code formatting and style
+b) To identify vulnerabilities and errors in code
 
 c) To review pull requests automatically
 
-d) To synchronize code with production servers
+d) To check code formatting and style
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 To identify vulnerabilities and errors in code
 
@@ -576,15 +576,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/introduction-to-c
 
 Q:: Is secret scanning available for both public and private repositories on GitHub?
 
-a) Yes, but for private repositories, it requires a license for GitHub Advanced Security
+a) No, it is only available for public repositories
 
-b) Yes, with no additional requirements
+b) No, it is only available for private repositories
 
-c) No, it is only available for public repositories
+c) Yes, with no additional requirements
 
-d) No, it is only available for private repositories
+d) Yes, but for private repositories, it requires a license for GitHub Advanced Security
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 Yes, but for private repositories, it requires a license for GitHub Advanced Security
 
@@ -600,7 +600,7 @@ c) Scans code only on a monthly basis
 
 d) Requires separate installation of third-party scanning tools
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Automatically chooses languages to analyze, query suite to run, and events that trigger scans
 
@@ -608,15 +608,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/introduction-to-c
 
 Q:: What is the main purpose of using the CodeQL CLI?
 
-a) To generate a database representation of a codebase, a CodeQL database
+a) To automatically merge pull requests
 
-b) To manage repository settings and permissions
+b) To schedule regular maintenance tasks in a repository
 
-c) To schedule regular maintenance tasks in a repository
+c) To manage repository settings and permissions
 
-d) To automatically merge pull requests
+d) To generate a database representation of a codebase, a CodeQL database
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 To generate a database representation of a codebase, a CodeQL database
 
@@ -626,13 +626,13 @@ Q:: Which of the following languages is NOT supported by CodeQL for code scannin
 
 a) PHP
 
-b) JavaScript/TypeScript
+b) C/C++
 
-c) C/C++
+c) Python
 
-d) Python
+d) JavaScript/TypeScript
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 PHP
 
@@ -640,15 +640,15 @@ Source: https://codeql.github.com/docs/codeql-overview/supported-languages-and-f
 
 Q:: How does CodeQL analyze code in GitHub?
 
-a) It generates a CodeQL database and runs queries to identify problems, displaying results as code scanning alerts
+a) It uses machine learning to predict potential vulnerabilities based on past commits
 
-b) It uses machine learning to predict potential vulnerabilities based on past commits
+b) It performs manual code reviews submitted by GitHub community members
 
-c) It performs manual code reviews submitted by GitHub community members
+c) It generates a CodeQL database and runs queries to identify problems, displaying results as code scanning alerts
 
 d) It relies solely on third-party tools for code analysis
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 It generates a CodeQL database and runs queries to identify problems, displaying results as code scanning alerts
 
@@ -658,13 +658,13 @@ Q:: How can CodeQL be used in an external CI system together with GitHub reposit
 
 a) Run CodeQL CLI in the external CI system to scan code and upload the results to the GitHub repository
 
-b) CodeQL cannot be used in external CI systems; it is exclusive to GitHub Actions
+b) Upload source code to GitHub for analysis and then download results for use in the CI system
 
-c) Upload source code to GitHub for analysis and then download results for use in the CI system
+c) CodeQL cannot be used in external CI systems; it is exclusive to GitHub Actions
 
 d) Manually run CodeQL locally and email the results to the GitHub repository administrators
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Run CodeQL CLI in the external CI system to scan code and upload the results to the GitHub repository
 
@@ -674,13 +674,13 @@ Q:: Which of these statements isn't true about secret scanning on GitHub?
 
 a) Secret scanning is a tool for secure secret storage and management.
 
-b) Secret scanning will scan your entire Git history on all branches present in your GitHub repository for secrets.
+b) Secret scanning will scan titles, descriptions, and comments, in open and closed historical issues for secrets.
 
-c) Secret scanning will scan titles, descriptions, and comments, in open and closed historical issues for secrets.
+c) Secret scanning will scan your entire Git history on all branches present in your GitHub repository for secrets.
 
 d) Secret scanning can prevent supported secrets from being pushed into your enterprise, organization, or repository.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Secret scanning is a tool for secure secret storage and management.
 
@@ -688,15 +688,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/about-secret-sc
 
 Q:: Which top-level keys are required in the `dependabot.yml` file?
 
-a) `version` and `updates`
+a) `assignees` and `directory`
 
-b) `version` and `package-ecosystem`
+b) `updates` and `directory`
 
-c) `assignees` and `directory`
+c) `version` and `updates`
 
-d) `updates` and `directory`
+d) `version` and `package-ecosystem`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 `version` and `updates`
 
@@ -712,7 +712,7 @@ c) `github/codeql-action`
 
 d) `actions/upload-sarif`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 `github/codeql-action/upload-sarif`
 
@@ -720,15 +720,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: Which tool can be used in a third-party CI system to upload code analysis results to GitHub?
 
-a) CodeQL CLI
+a) GitHub CLI
 
 b) CodeQL API
 
 c) GitHub Actions `github/codeql-action`
 
-d) GitHub CLI
+d) CodeQL CLI
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 CodeQL CLI
 
@@ -736,15 +736,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: What is required for a CI server to upload SARIF results to GitHub?
 
-a) A GitHub App or personal access token with `security_events` write permission.
+a) A direct connection to the GitHub Advisory Database.
 
-b) A direct connection to the GitHub Advisory Database.
+b) A GitHub App or personal access token with `security_events` write permission.
 
-c) Administrator access to the GitHub repository.
+c) A special plugin installed in the CI system.
 
-d) A special plugin installed in the CI system.
+d) Administrator access to the GitHub repository.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 A GitHub App or personal access token with `security_events` write permission.
 
@@ -754,13 +754,13 @@ Q:: What happens when a second SARIF results file is uploaded to GitHub for a si
 
 a) It replaces the original set of data.
 
-b) It appends the results to the existing file.
+b) It creates a new branch in the repository
 
-c) It creates a new branch in the repository
+c) It appends the results to the existing file.
 
 d) It is ignored by GitHub.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 It replaces the original set of data.
 
@@ -768,15 +768,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: How can users exclude specific directories from secret scanning alerts on GitHub?
 
-a) By configuring a `secret_scanning.yml` file, under the `.github` path in the repository.
+a) By editing the repository's `README.md` file.
 
 b) Through the repository's `Security` tab, in the `Secret scanning` menu.
 
 c) Through the repository's `Settings` tab, in the `Code security and analysis` menu.
 
-d) By editing the repository's `README.md` file.
+d) By configuring a `secret_scanning.yml` file, under the `.github` path in the repository.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 By configuring a `secret_scanning.yml` file, under the `.github` path in the repository.
 
@@ -784,15 +784,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/configuring-sec
 
 Q:: Which key should be used in a `secret_scanning.yml` file to exclude directories from secret scanning alerts in GitHub?
 
-a) `paths-ignore:`
+a) `ignore-directories`
 
-b) `paths-exclude:`
+b) `exclude-paths:`
 
-c) `ignore-directories`
+c) `paths-exclude:`
 
-d) `exclude-paths:`
+d) `paths-ignore:`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 `paths-ignore:`
 
@@ -800,15 +800,15 @@ Source: https://docs.github.com/en/code-security/secret-scanning/configuring-sec
 
 Q:: What is the maximum number of custom patterns that can be defined for secret scanning on GitHub?
 
-a) 500 for organizations/enterprises and 100 for repositories.
+a) 100 for organizations/enterprises and 500 for repositories.
 
-b) 100 for organizations/enterprises and 500 for repositories.
+b) 100 for organizations, enterprises and repositories.
 
-c) 100 for organizations, enterprises and repositories.
+c) 500 for organizations/enterprises and 100 for repositories.
 
 d) There's no limit to the number of custom patterns you can define for secret scanning in GitHub.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 500 for organizations/enterprises and 100 for repositories.
 
@@ -816,15 +816,15 @@ Source: https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-
 
 Q:: Fill in the blank: `GitHub __________ is a feature that you can use to analyze code in a GitHub repository to find security vulnerabilities and coding errors.`
 
-a) Code Scanning
+a) Vulnerability Detection
 
 b) Dependency Graph
 
-c) Security Advisories
+c) Code Scanning
 
-d) Vulnerability Detection
+d) Security Advisories
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Code Scanning
 
@@ -836,11 +836,11 @@ a) Code scanning
 
 b) Dependabot alerts
 
-c) Security policies
+c) Security advisories
 
-d) Security advisories
+d) Security policies
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Code scanning
 
@@ -850,13 +850,13 @@ Q:: How can you enable code scanning for a repository?
 
 a) Go to the security tab of the repository settings and enable code scanning with default or advanced setup.
 
-b) Go to your user settings and enable code scanning, you can choose to enable it for all or only selected repositories.
+b) Go to the security tab of the repository settings and answer a questionnaire about the repository contents. Based on the answers, GitHub will enable code scanning with the appropriate configuration.
 
-c) Add a `.github/codeql.yml`configuration file to the repository.
+c) Go to your user settings and enable code scanning, you can choose to enable it for all or only selected repositories.
 
-d) Go to the security tab of the repository settings and answer a questionnaire about the repository contents. Based on the answers, GitHub will enable code scanning with the appropriate configuration.
+d) Add a `.github/codeql.yml`configuration file to the repository.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Go to the security tab of the repository settings and enable code scanning with default or advanced setup.
 
@@ -864,17 +864,17 @@ Source: https://docs.github.com/en/code-security/code-scanning/enabling-code-sca
 
 Q:: How can you configure your GitHub repository to run CodeQL analysis on a schedule? (Choose two.)
 
-a) By creating a GitHub Actions workflow with a `schedule` trigger. The workflow should leverage actions from the `github/codeql-action` repository.
+a) By raising a request with GitHub support to enable scheduled CodeQL analysis for the repository.
 
-b) By using the default CodeQL analysis setup.
+b) By adding a `schedule` property to the `.github/codeql.yml` configuration file.
 
-c) By setting the `codeql.trigger` property in the repository settings to `schedule`.
+c) By using the default CodeQL analysis setup.
 
-d) By adding a `schedule` property to the `.github/codeql.yml` configuration file.
+d) By creating a GitHub Actions workflow with a `schedule` trigger. The workflow should leverage actions from the `github/codeql-action` repository.
 
-e) By raising a request with GitHub support to enable scheduled CodeQL analysis for the repository.
+e) By setting the `codeql.trigger` property in the repository settings to `schedule`.
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): D, C</span>
 
 By creating a GitHub Actions workflow with a `schedule` trigger. The workflow should leverage actions from the `github/codeql-action` repository.; By using the default CodeQL analysis setup.
 
@@ -882,15 +882,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/enabling-code-sca
 
 Q:: An organization has recently started using CodeQL analysis for all pull requests on their repositories as well as running the analysis on an hourly schedule. Since then they are experiencing larger than usual GitHub Actions bills. What is the most likely cause of this?
 
-a) Code scanning uses GitHub Actions and the organization is being billed for the additional usage.
+a) The code scanning analysis is finding more issues than expected and is taking longer to complete.
 
-b) The code scanning analysis is finding more issues than expected and is taking longer to complete.
+b) Code scanning can only be run on a daily schedule and the organization is being billed for the additional usage.
 
-c) Code scanning can only be run on a daily schedule and the organization is being billed for the additional usage.
+c) Code scanning uses GitHub Actions and the organization is being billed for the additional usage.
 
 d) There is no correlation between code scanning and GitHub Actions billing. The organization is being billed for other GitHub Actions workflows.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Code scanning uses GitHub Actions and the organization is being billed for the additional usage.
 
@@ -902,7 +902,7 @@ a) True
 
 b) False
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 True
 
@@ -914,11 +914,11 @@ a) You don't specifically need a GitHub tool, any static analysis tool that can 
 
 b) You need to install the GitHub Code Scanning tool.
 
-c) You need to install CodeQL CLI
+c) You need to install GitHub CLI
 
-d) You need to install GitHub CLI
+d) You need to install CodeQL CLI
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 You don't specifically need a GitHub tool, any static analysis tool that can produce results in SARIF format will work.
 
@@ -926,15 +926,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: When using GitHub Actions as your CI system and a third party tool to run code scanning, how can you upload the SARIF results to GitHub?
 
-a) By using the `github/codeql-action/upload-sarif` GitHub Action
+a) You can only use CodeQL when running code scanning in GitHub Actions. Third party code scanning tools are not supported.
 
-b) When using GitHub Actions the SARIF results are automatically uploaded to GitHub.
+b) By using the `github/codeql-action/upload-sarif` GitHub Action
 
-c) You can only use CodeQL when running code scanning in GitHub Actions. Third party code scanning tools are not supported.
+c) When using GitHub Actions the SARIF results are automatically uploaded to GitHub.
 
 d) By using the `actions/upload-artifact` GitHub Action
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 By using the `github/codeql-action/upload-sarif` GitHub Action
 
@@ -942,11 +942,11 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: Can you use CodeQL analysis with third party CI systems?
 
-a) Yes, you just need to use the CodeQL CLI
+a) No, because it requires using the `github/codeql-action` GitHub Action
 
-b) No, because it requires using the `github/codeql-action` GitHub Action
+b) Yes, you just need to use the CodeQL CLI
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Yes, you just need to use the CodeQL CLI
 
@@ -954,17 +954,17 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: Which of these is true about code scanning? (Choose two.)
 
-a) Code scanning helps finding insecure code patterns which can be missed by manual code review.
+a) Code scanning is a replacement for manual code review.
 
-b) Code scanning can be integrated into the CI pipeline to find security issues early in the development process.
+b) Code scanning helps finding any leaked credentials in the codebase such as API keys or cloud credentials.
 
-c) Code scanning is a replacement for manual code review.
+c) Code scanning can be integrated into the CI pipeline to find security issues early in the development process.
 
-d) Code scanning helps finding any leaked credentials in the codebase such as API keys or cloud credentials.
+d) Code scanning helps finding insecure code patterns which can be missed by manual code review.
 
 e) Code scanning scans your code to search for all dependencies and their versions to find any vulnerable dependencies.
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): D, C</span>
 
 Code scanning helps finding insecure code patterns which can be missed by manual code review.; Code scanning can be integrated into the CI pipeline to find security issues early in the development process.
 
@@ -972,15 +972,15 @@ Source: https://docs.github.com/en/code-security/supply-chain-security/end-to-en
 
 Q:: When using CodeQL analysis in your GitHub Actions workflow, how often is the scan triggered?
 
-a) Code scanning can be triggered for many different events that happen in the repository.
+a) Code scanning can be triggered on a configurable schedule or on pull requests.
 
-b) Code scanning is triggered on every push to the repository.
+b) Code scanning can be triggered for many different events that happen in the repository.
 
-c) Code scanning is triggered on a configurable schedule
+c) Code scanning is triggered on every push to the repository.
 
-d) Code scanning can be triggered on a configurable schedule or on pull requests.
+d) Code scanning is triggered on a configurable schedule
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Code scanning can be triggered for many different events that happen in the repository.
 
@@ -988,15 +988,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/introduction-to-c
 
 Q:: What is the effect of adding the `paths-ignore` keyword to your code scanning GitHub Actions workflow?
 
-a) Avoiding unnecessary scans when files that are not relevant to the analysis are changed.
+a) It tells CodeQL to omit all `*.txt` and `*.md` files from the analysis.
 
-b) It tells CodeQL to omit all `*.txt` and `*.md` files from the analysis.
+b) Preventing the CodeQL analysis from running on pull requests that change files with the specified extensions.
 
-c) Preventing the CodeQL analysis from running on pull requests that change files with the specified extensions.
+c) Avoiding unnecessary scans when files that are not relevant to the analysis are changed.
 
 d) Pull request checks will ignore any CodeQL vulnerabilities that are found in `*.txt` and `*.md` files.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Avoiding unnecessary scans when files that are not relevant to the analysis are changed.
 
@@ -1004,15 +1004,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/creating-an-advan
 
 Q:: CodeQL scanning supports:
 
-a) Both compiled and interpreted languages
+a) Only compiled languages
 
-b) Only compiled languages
+b) Both compiled and interpreted languages
 
 c) Only interpreted languages
 
 d) All programming languages
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Both compiled and interpreted languages
 
@@ -1020,15 +1020,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/introduction-to-c
 
 Q:: What are CodeQL queries used for?
 
-a) CodeQL queries can be run against a CodeQL database to identify patterns that may indicate coding errors or security vulnerabilities.
+a) CodeQL queries analyze your codebase and are used to create a CodeQL database.
 
-b) CodeQL queries analyze your codebase and are used to create a CodeQL database.
+b) CodeQL queries are used for code review purposes in GitHub.
 
-c) CodeQL queries are used for code review purposes in GitHub.
+c) CodeQL queries are text-based questions you can ask the CodeQL engine about your codebase.
 
-d) CodeQL queries are text-based questions you can ask the CodeQL engine about your codebase.
+d) CodeQL queries can be run against a CodeQL database to identify patterns that may indicate coding errors or security vulnerabilities.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 CodeQL queries can be run against a CodeQL database to identify patterns that may indicate coding errors or security vulnerabilities.
 
@@ -1036,15 +1036,15 @@ Source: https://codeql.github.com/docs/writing-codeql-queries/about-codeql-queri
 
 Q:: What is QL?
 
-a) QL is a query language that underlies CodeQL
+a) QL is a npm package that is used by CodeQL to scan code
 
-b) QL stands for Quality Level and is a metric used by CodeQL
+b) QL is a similar product to CodeQL but is used for scanning text files instead of code
 
-c) QL is a similar product to CodeQL but is used for scanning text files instead of code
+c) QL stands for Quality Level and is a metric used by CodeQL
 
-d) QL is a npm package that is used by CodeQL to scan code
+d) QL is a query language that underlies CodeQL
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 QL is a query language that underlies CodeQL
 
@@ -1052,15 +1052,15 @@ Source: https://codeql.github.com/docs/ql-language-reference/about-the-ql-langua
 
 Q:: What is a CodeQL query suite?
 
-a) CodeQL suite is a collections of CodeQL queries
+a) CodeQL suite is a collection of CodeQL results
 
-b) CodeQL suite is a collection of CodeQL databases
+b) CodeQL suite is a collections of CodeQL queries
 
-c) CodeQL suite is a collection of CodeQL results
+c) CodeQL suite is a collection of CodeQL supported languages
 
-d) CodeQL suite is a collection of CodeQL supported languages
+d) CodeQL suite is a collection of CodeQL databases
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 CodeQL suite is a collections of CodeQL queries
 
@@ -1070,17 +1070,17 @@ Q:: What are the different types of CodeQL packs? (Choose three.)
 
 a) Query packs
 
-b) Library packs
+b) Model packs
 
-c) Model packs
+c) Code packs
 
-d) Code packs
+d) Library packs
 
 e) Language packs
 
 f) Vulnerability packs
 
-A:: **Answer(s):** A, B, C
+A:: <span style="color: #f800f8">**Answer(s): A, D, B</span>
 
 Query packs; Library packs; Model packs
 
@@ -1088,15 +1088,15 @@ Source: https://docs.github.com/en/code-security/codeql-cli/getting-started-with
 
 Q:: What is a CodeQL query pack?
 
-a) It's a set of pre-compiled queries with all transitive dependencies such as libraries and models
+a) It's a set of results that were generated in the process of analyzing a CodeQL database
 
-b) It's a library used by CodeQL queries
+b) It's a collection of CodeQL queries
 
-c) It's a collection of CodeQL queries
+c) It's a library used by CodeQL queries
 
-d) It's a set of results that were generated in the process of analyzing a CodeQL database
+d) It's a set of pre-compiled queries with all transitive dependencies such as libraries and models
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 It's a set of pre-compiled queries with all transitive dependencies such as libraries and models
 
@@ -1104,15 +1104,15 @@ Source: https://docs.github.com/en/code-security/codeql-cli/getting-started-with
 
 Q:: What are the steps of CodeQL analysis workflow?
 
-a) Creating a CodeQL database -> Running CodeQL queries -> Interpreting the results
+a) Running CodeQL queries -> Interpreting the results
 
-b) Running CodeQL queries -> Creating a CodeQL database -> Interpreting the results
+b) Creating a CodeQL database -> Interpreting the results -> Running CodeQL queries
 
-c) Running CodeQL queries -> Interpreting the results
+c) Creating a CodeQL database -> Running CodeQL queries -> Interpreting the results
 
-d) Creating a CodeQL database -> Interpreting the results -> Running CodeQL queries
+d) Running CodeQL queries -> Creating a CodeQL database -> Interpreting the results
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Creating a CodeQL database -> Running CodeQL queries -> Interpreting the results
 
@@ -1120,15 +1120,15 @@ Source: https://codeql.github.com/docs/codeql-overview/about-codeql/#codeql-anal
 
 Q:: What is extraction in the context of CodeQL code analysis?
 
-a) Extraction is the process of creating a relational representation of each source file in the codebase.
+a) Extraction is the action of running CodeQL queries against a CodeQL database and extracting the results.
 
-b) Extraction is the action of running CodeQL queries against a CodeQL database and extracting the results.
+b) Extraction is the process of exporting data from a CodeQL database.
 
-c) Extraction is the process of creating CodeQL queries specific to the codebase.
+c) Extraction is the process of creating a relational representation of each source file in the codebase.
 
-d) Extraction is the process of exporting data from a CodeQL database.
+d) Extraction is the process of creating CodeQL queries specific to the codebase.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Extraction is the process of creating a relational representation of each source file in the codebase.
 
@@ -1136,15 +1136,15 @@ Source: https://codeql.github.com/docs/codeql-overview/about-codeql/#database-cr
 
 Q:: Which of these statements are true regarding running CodeQL analysis on codebases with multiple programming languages? (Choose two.)
 
-a) CodeQL uses a different extractor for each programming language
+a) CodeQL creates one database for all programming languages in the codebase, as long as they are supported by CodeQL
 
-b) CodeQL creates separate databases for each programming language
+b) CodeQL uses a different extractor for each programming language
 
-c) CodeQL creates one database for all programming languages in the codebase, as long as they are supported by CodeQL
+c) CodeQL database schema is the same for each programming language
 
-d) CodeQL database schema is the same for each programming language
+d) CodeQL creates separate databases for each programming language
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): B, D</span>
 
 CodeQL uses a different extractor for each programming language; CodeQL creates separate databases for each programming language
 
@@ -1152,19 +1152,19 @@ Source: https://codeql.github.com/docs/codeql-overview/about-codeql/#database-cr
 
 Q:: What are the differences when running CodeQL database creation for compiled and interpreted languages? (Choose two.)
 
-a) For compiled languages, extraction works by monitoring the build process. All information is collected each time the compiler is invoked to process a source file.
+a) For compiled languages, the extractor runs on the executable file.
 
-b) For interpreted languages, the extractor runs directly on the source code.
+b) For interpreted languages, the extractor runs on the executable file.
 
-c) For interpreted languages, extraction works by monitoring the build process. All information is collected each time the interpreter is invoked to process a source file.
+c) For interpreted languages, the extractor runs directly on the source code.
 
-d) For compiled languages, the extractor runs directly on the source code.
+d) For interpreted languages, extraction works by monitoring the build process. All information is collected each time the interpreter is invoked to process a source file.
 
-e) For compiled languages, the extractor runs on the executable file.
+e) For compiled languages, the extractor runs directly on the source code.
 
-f) For interpreted languages, the extractor runs on the executable file.
+f) For compiled languages, extraction works by monitoring the build process. All information is collected each time the compiler is invoked to process a source file.
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): F, C</span>
 
 For compiled languages, extraction works by monitoring the build process. All information is collected each time the compiler is invoked to process a source file.; For interpreted languages, the extractor runs directly on the source code.
 
@@ -1176,11 +1176,11 @@ a) In the code scanning tool status page
 
 b) In repository insights
 
-c) In the Dependabot tab
+c) You can't see that information with the default setup
 
-d) You can't see that information with the default setup
+d) In the Dependabot tab
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 In the code scanning tool status page
 
@@ -1188,19 +1188,19 @@ Source: https://docs.github.com/en/code-security/code-scanning/enabling-code-sca
 
 Q:: Which of the following statements about enabling CodeQL scanning default setup are true? (Choose three.)
 
-a) You can enable default setup for all eligible repositories in an organization at once in the organization settings
+a) GitHub Actions need to be enabled as a prerequisite
 
-b) GitHub Actions need to be enabled as a prerequisite
+b) Default setup will scan the repository on a schedule that you can configure. For event based scanning, you need to configure a GitHub Action workflow
 
-c) You can enable default setup on any repository, regardless of the contents of the repository
+c) You can only use the default query suite with default CodeQL scanning setup
 
-d) You can only enable default setup on repositories that contain at least one CodeQL-supported language
+d) You can enable default setup on any repository, regardless of the contents of the repository
 
-e) Default setup will scan the repository on a schedule that you can configure. For event based scanning, you need to configure a GitHub Action workflow
+e) You can enable default setup for all eligible repositories in an organization at once in the organization settings
 
-f) You can only use the default query suite with default CodeQL scanning setup
+f) You can only enable default setup on repositories that contain at least one CodeQL-supported language
 
-A:: **Answer(s):** A, B, C
+A:: <span style="color: #f800f8">**Answer(s): E, A, D</span>
 
 You can enable default setup for all eligible repositories in an organization at once in the organization settings; GitHub Actions need to be enabled as a prerequisite; You can enable default setup on any repository, regardless of the contents of the repository
 
@@ -1208,17 +1208,17 @@ Source: https://docs.github.com/en/code-security/code-scanning/enabling-code-sca
 
 Q:: How can you customize your advanced CodeQL scanning setup with additional CodeQL query suites? (Choose two.)
 
-a) By using a custom configuration file and defining additional queries there
+a) By defining the customizations in the Security / Code scanning repository settings
 
-b) By defining the customizations in the CodeQL analysis GitHub Actions workflow as input parameters to the `github/codeql-action/init` action
+b) By using the CodeQL CLI with a custom configuration file to run the analysis
 
-c) By using the CodeQL CLI with a custom configuration file to run the analysis
+c) By defining the customizations in the CodeQL analysis GitHub Actions workflow as input parameters to the `github/codeql-action/init` action
 
-d) By defining the customizations in the Security / Code scanning repository settings
+d) By using the `github/codeql-customizations` GitHub Action
 
-e) By using the `github/codeql-customizations` GitHub Action
+e) By using a custom configuration file and defining additional queries there
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): E, C</span>
 
 By using a custom configuration file and defining additional queries there; By defining the customizations in the CodeQL analysis GitHub Actions workflow as input parameters to the `github/codeql-action/init` action
 
@@ -1226,19 +1226,19 @@ Source: https://docs.github.com/en/code-security/code-scanning/creating-an-advan
 
 Q:: When running CodeQL analysis in GitHub Actions, what Actions should you use? (Choose three.)
 
-a) `github/codeql-action/init`
+a) `github/codeql-action/autobuild` only for compiled programming languages
 
-b) `github/codeql-action/analyze`
+b) `github/codeql-action/init`
 
-c) `github/codeql-action/autobuild` only for compiled programming languages
+c) `github/codeql-action/analyze` only for interpreted programming languages
 
 d) `github/codeql-action/autobuild`
 
 e) `github/codeql-action/init` only for compiled programming languages
 
-f) `github/codeql-action/analyze` only for interpreted programming languages
+f) `github/codeql-action/analyze`
 
-A:: **Answer(s):** A, B, C
+A:: <span style="color: #f800f8">**Answer(s): B, F, A</span>
 
 `github/codeql-action/init`; `github/codeql-action/analyze`; `github/codeql-action/autobuild` only for compiled programming languages
 
@@ -1246,15 +1246,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/creating-an-advan
 
 Q:: What is the simplest method to execute CodeQL analysis concurrently for each language in a multi-language repository using GitHub Actions?
 
-a) By creating a `languages` matrix for the job and then reference it in the `github/codeql-action/init` action's `languages` input parameter
+a) Define the parallelism in the `github/codeql-action/analyze` action
 
-b) By calling the `github/codeql-action/analyze` action in separate steps for each language
+b) By creating a separate workflow for each language
 
-c) By creating a separate workflow for each language
+c) By creating a `languages` matrix for the job and then reference it in the `github/codeql-action/init` action's `languages` input parameter
 
-d) Define the parallelism in the `github/codeql-action/analyze` action
+d) By calling the `github/codeql-action/analyze` action in separate steps for each language
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 By creating a `languages` matrix for the job and then reference it in the `github/codeql-action/init` action's `languages` input parameter
 
@@ -1262,15 +1262,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/creating-an-advan
 
 Q:: How can you use a custom CodeQL configuration file in a GitHub Actions workflow?
 
-a) By explicitly providing the configuration file path in the `config-file` input parameter of the `github/codeql-action/init` action
+a) By storing the configuration in `.github/codeql/config-config.yml` file. The `github/codeql-action/init` action will automatically detect the file and use it
 
-b) By storing the configuration in `.github/codeql/config-config.yml` file. The `github/codeql-action/init` action will automatically detect the file and use it
+b) By uploading that file in the Code Scanning section of the Security tab in the repository
 
-c) By uploading that file in the Code Scanning section of the Security tab in the repository
+c) By storing the configuration in `.github/workflows/codeql-analysis.yml` file. The `github/codeql-action/init` action will automatically detect the file and use it
 
-d) By storing the configuration in `.github/workflows/codeql-analysis.yml` file. The `github/codeql-action/init` action will automatically detect the file and use it
+d) By explicitly providing the configuration file path in the `config-file` input parameter of the `github/codeql-action/init` action
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 By explicitly providing the configuration file path in the `config-file` input parameter of the `github/codeql-action/init` action
 
@@ -1278,17 +1278,17 @@ Source: https://docs.github.com/en/code-security/code-scanning/creating-an-advan
 
 Q:: Where can you specify the CodeQL queries to run in a GitHub Actions workflow? (Choose two.)
 
-a) In the `queries` input parameter of the `github/codeql-action/init` action
+a) In the `codeql` field of the `.github/settings.yml` file
 
-b) In a CodeQL configuration YAML file
+b) In the Code Scanning section of the Security tab in the repository
 
-c) In the `paths` input parameter of the `github/codeql-action/queries` action
+c) In a CodeQL configuration YAML file
 
-d) In the Code Scanning section of the Security tab in the repository
+d) In the `queries` input parameter of the `github/codeql-action/init` action
 
-e) In the `codeql` field of the `.github/settings.yml` file
+e) In the `paths` input parameter of the `github/codeql-action/queries` action
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): D, C</span>
 
 In the `queries` input parameter of the `github/codeql-action/init` action; In a CodeQL configuration YAML file
 
@@ -1296,15 +1296,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/creating-an-advan
 
 Q:: What is the purpose of the `external-repository-token` parameter in `github/codeql-action/init` GitHub Action?
 
-a) It allows the action to access a private GitHub repository that contains configuration files, queries or packs that are required for the analysis.
+a) It allows the action to upload the generated CodeQL database to a private GitHub repository.
 
-b) It allows the action to upload the results of the analysis to a private GitHub repository.
+b) It allows the action to access a private GitHub repository that contains configuration files, queries or packs that are required for the analysis.
 
-c) It allows the action to access a private GitHub repository that contains the source code to be analyzed.
+c) It allows the action to upload the results of the analysis to a private GitHub repository.
 
-d) It allows the action to upload the generated CodeQL database to a private GitHub repository.
+d) It allows the action to access a private GitHub repository that contains the source code to be analyzed.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 It allows the action to access a private GitHub repository that contains configuration files, queries or packs that are required for the analysis.
 
@@ -1312,15 +1312,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/creating-an-advan
 
 Q:: What CodeQL CLI command is used to create a CodeQL database?
 
-a) `codeql database create`
+a) `qlcli database create`
 
-b) `gh codeql-database create`
+b) `codeql database create`
 
 c) `ql database generate`
 
-d) `qlcli database create`
+d) `gh codeql-database create`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 `codeql database create`
 
@@ -1328,15 +1328,15 @@ Source: https://docs.github.com/en/code-security/codeql-cli/getting-started-with
 
 Q:: What is the purpose of the `codeql database analyze` command in CodeQL CLI?
 
-a) Analyzing a CodeQL database, producing results usually in the form of a SARIF file.
+a) Analyzing a CodeQL database and uploading the results to GitHub.
 
-b) Analyzing a CodeQL database, producing results usually in the form of security advisories.
+b) Analyzing a CodeQL database, producing results usually in the form of a SARIF file.
 
-c) Analyzing the source code, producing a CodeQL database.
+c) Analyzing a CodeQL database, producing results usually in the form of security advisories.
 
-d) Analyzing a CodeQL database and uploading the results to GitHub.
+d) Analyzing the source code, producing a CodeQL database.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Analyzing a CodeQL database, producing results usually in the form of a SARIF file.
 
@@ -1344,17 +1344,17 @@ Source: https://docs.github.com/en/code-security/codeql-cli/getting-started-with
 
 Q:: As part of your Jenkins CI pipeline you've successfully created and then analyzed a CodeQL database, therefore producing a SARIF file. How can you upload the SARIF file to GitHub? (Choose two.)
 
-a) Using the `codeql github upload-results` command from CodeQL CLI
+a) By committing the SARIF file to the GitHub repository
 
-b) Using the GitHub REST API `POST /repos/{owner}/{repo}/code-scanning/sarifs` endpoint
+b) Using the `github/codeql-action/upload-sarif` GitHub Action
 
-c) Using the `gh codeql upload-results` command from GitHub CLI
+c) Using the GitHub REST API `POST /repos/{owner}/{repo}/code-scanning/sarifs` endpoint
 
-d) By committing the SARIF file to the GitHub repository
+d) Using the `gh codeql upload-results` command from GitHub CLI
 
-e) Using the `github/codeql-action/upload-sarif` GitHub Action
+e) Using the `codeql github upload-results` command from CodeQL CLI
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): E, C</span>
 
 Using the `codeql github upload-results` command from CodeQL CLI; Using the GitHub REST API `POST /repos/{owner}/{repo}/code-scanning/sarifs` endpoint
 
@@ -1362,19 +1362,19 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: What details can you find on a code scanning alert page? (Choose three.)
 
-a) Branches affected by the vulnerability
+a) Information how many times the vulnerability has been exploited
 
 b) Highlighted vulnerable code
 
-c) Severity of the vulnerability
+c) Branches affected by the vulnerability
 
-d) Information how many times the vulnerability has been exploited
+d) Severity of the vulnerability
 
-e) Assigned developer to fix the vulnerability
+e) ID of the CodeQL database that was used to find the vulnerability
 
-f) ID of the CodeQL database that was used to find the vulnerability
+f) Assigned developer to fix the vulnerability
 
-A:: **Answer(s):** A, B, C
+A:: <span style="color: #f800f8">**Answer(s): C, B, D</span>
 
 Branches affected by the vulnerability; Highlighted vulnerable code; Severity of the vulnerability
 
@@ -1382,17 +1382,17 @@ Source: https://docs.github.com/en/code-security/code-scanning/managing-code-sca
 
 Q:: Which of these statements regarding viewing the results of a CodeQL analysis are true? (Choose two.)
 
-a) You need write permission to view a summary of all the alerts for a repository in the Security tab.
+a) Anyone with read permission for a repository can see code scanning annotations on pull requests.
 
-b) Anyone with read permission for a repository can see code scanning annotations on pull requests.
+b) Anyone with read permissions for a repository can view code scanning alerts in the Security tab.
 
-c) You need write permission to view code scanning annotations on pull requests.
+c) You need write permission to view a summary of all the alerts for a repository in the Security tab.
 
-d) Anyone with read permissions for a repository can view code scanning alerts in the Security tab.
+d) You need write permission to view code scanning annotations on pull requests.
 
 e) Only the repository owner can see the code scanning alerts in the Security tab.
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): C, A</span>
 
 You need write permission to view a summary of all the alerts for a repository in the Security tab.; Anyone with read permission for a repository can see code scanning annotations on pull requests.
 
@@ -1400,15 +1400,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/managing-code-sca
 
 Q:: When a CodeQL analysis GitHub Actions workflow detects a new vulnerability on a pull request, where can you find the information about that vulnerability?
 
-a) Directly in the pull request in the form of a PR comment and a check failure
+a) In the workflow run logs
 
-b) In the security tab of the repository
+b) The CodeQL analysis workflow will fail and produce an artifact with the results
 
-c) In the workflow run logs
+c) Directly in the pull request in the form of a PR comment and a check failure
 
-d) The CodeQL analysis workflow will fail and produce an artifact with the results
+d) In the security tab of the repository
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Directly in the pull request in the form of a PR comment and a check failure
 
@@ -1416,15 +1416,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/managing-code-sca
 
 Q:: When viewing a code scanning alert what is the `Show paths` option used for?
 
-a) It will display the path through the code that leads to the issue causing the alert.
+a) It will show recommendations on how to fix the vulnerability
 
-b) It's used for showing the paths to the CodeQL queries that were used to find the vulnerability
+b) It will display the path through the code that leads to the issue causing the alert.
 
-c) It will show recommendations on how to fix the vulnerability
+c) It's used for showing the paths to the CodeQL queries that were used to find the vulnerability
 
 d) It's used for showing the file path to the CodeQL database that was used to find the vulnerability
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 It will display the path through the code that leads to the issue causing the alert.
 
@@ -1436,7 +1436,7 @@ a) Closing an alert that you don't think needs to be fixed
 
 b) Closing the alert after fixing the vulnerability in the code
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Closing an alert that you don't think needs to be fixed
 
@@ -1444,17 +1444,17 @@ Source: https://docs.github.com/en/code-security/code-scanning/managing-code-sca
 
 Q:: Which of these is NOT a valid approach one can take to reduce the time it takes for CodeQL analysis workflow to complete?
 
-a) Run the analysis on every push event
+a) Parallelize the analysis for multi-language codebases
 
-b) Use runners with more CPU/RAM resources
+b) Reduce the number of queries that are run
 
-c) Parallelize the analysis for multi-language codebases
+c) Run the analysis on every push event
 
 d) Ignore irrelevant files and directories from the analysis
 
-e) Reduce the number of queries that are run
+e) Use runners with more CPU/RAM resources
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Run the analysis on every push event
 
@@ -1462,15 +1462,15 @@ Source: https://docs.github.com/en/code-security/code-scanning/troubleshooting-c
 
 Q:: What is the purpose of defining a SARIF category?
 
-a) Use the category to distinguish between multiple analyses for the same tool or commit, but performed on different languages or different parts of the code.
+a) Use a different category for each file that has been analyzed to easily track back the vulnerabilities to the files that contain them.
 
-b) Use the category to distinguish files that have been analyzed from files that have not been analyzed.
+b) Use the category to distinguish files that contain vulnerabilities from files that do not contain vulnerabilities.
 
-c) Use the category to distinguish files that contain vulnerabilities from files that do not contain vulnerabilities.
+c) Use the category to distinguish between multiple analyses for the same tool or commit, but performed on different languages or different parts of the code.
 
-d) Use a different category for each file that has been analyzed to easily track back the vulnerabilities to the files that contain them.
+d) Use the category to distinguish files that have been analyzed from files that have not been analyzed.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Use the category to distinguish between multiple analyses for the same tool or commit, but performed on different languages or different parts of the code.
 
@@ -1478,17 +1478,17 @@ Source: https://docs.github.com/en/code-security/code-scanning/integrating-with-
 
 Q:: How can you enable GitHub Advanced Security features on GitHub Enterprise Server? (Choose two.)
 
-a) In the Security tab of the Site admin management console
+a) By connecting directly to the GitHub Enterprise Server instance through SSH and using the administrative shell `ghe-config` commands.
 
-b) By connecting directly to the GitHub Enterprise Server instance through SSH and using the administrative shell `ghe-config` commands.
+b) By setting the `github.advanced_security.enabled` configuration option to `true` in the `config.yml` file in the `.github` repository.
 
-c) By requesting an upgrade from GitHub Support
+c) In the Security tab of the Site admin management console
 
-d) By setting the `github.advanced_security.enabled` configuration option to `true` in the `config.yml` file in the `/etc/github` directory on the GitHub Enterprise Server instance.
+d) By requesting an upgrade from GitHub Support
 
-e) By setting the `github.advanced_security.enabled` configuration option to `true` in the `config.yml` file in the `.github` repository.
+e) By setting the `github.advanced_security.enabled` configuration option to `true` in the `config.yml` file in the `/etc/github` directory on the GitHub Enterprise Server instance.
 
-A:: **Answer(s):** A, B
+A:: <span style="color: #f800f8">**Answer(s): C, A</span>
 
 In the Security tab of the Site admin management console; By connecting directly to the GitHub Enterprise Server instance through SSH and using the administrative shell `ghe-config` commands.
 
@@ -1496,15 +1496,15 @@ Source: https://docs.github.com/en/enterprise-server@3.3/admin/code-security/man
 
 Q:: How can you enable GitHub Advanced Security features for all repositories in an organization in GitHub Enterprise Cloud?
 
-a) In `Code security and analysis` section of the organization settings
+a) By requesting an upgrade from GitHub Support
 
-b) By connecting directly to the GitHub Enterprise Cloud instance through SSH and using the administrative shell `ghe-config` commands.
+b) In the Site admin page of your enterprise account
 
-c) By requesting an upgrade from GitHub Support
+c) In `Code security and analysis` section of the organization settings
 
-d) In the Site admin page of your enterprise account
+d) By connecting directly to the GitHub Enterprise Cloud instance through SSH and using the administrative shell `ghe-config` commands.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 In `Code security and analysis` section of the organization settings
 
@@ -1514,13 +1514,13 @@ Q:: As a repository maintainer where should you put instructions on how to repor
 
 a) In the `SECURITY.md` file
 
-b) In the `CONTRIBUTING.md` file
+b) In the `CODE_OF_CONDUCT.md` file
 
-c) In the `README.md` file
+c) In the `CONTRIBUTING.md` file
 
-d) In the `CODE_OF_CONDUCT.md` file
+d) In the `README.md` file
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 In the `SECURITY.md` file
 
@@ -1528,15 +1528,15 @@ Source: https://docs.github.com/en/code-security/getting-started/adding-a-securi
 
 Q:: What is a GitHub security policy?
 
-a) It's a document that instructs users on how to responsibly report security vulnerabilities in a project. It's typically defined in a `SECURITY.md` file in a repository.
+a) It's a tool for automatically fixing security vulnerabilities in your code.
 
-b) It's a tool for automatically fixing security vulnerabilities in your code.
+b) A GitHub security policy is a subscription service that provides antivirus protection for your projects.
 
-c) It's a feature that allows you to encrypt your repository.
+c) It's a document that instructs users on how to responsibly report security vulnerabilities in a project. It's typically defined in a `SECURITY.md` file in a repository.
 
-d) A GitHub security policy is a subscription service that provides antivirus protection for your projects.
+d) It's a feature that allows you to encrypt your repository.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 It's a document that instructs users on how to responsibly report security vulnerabilities in a project. It's typically defined in a `SECURITY.md` file in a repository.
 
@@ -1544,15 +1544,15 @@ Source: https://docs.github.com/en/code-security/getting-started/adding-a-securi
 
 Q:: How can you set a default security policy for all repositories in `my-org` GitHub Organization?
 
-a) By creating a `SECURITY.md` file in the `my-org/.github` repository
+a) You can set a default security policy for all repositories in `my-org` GitHub Organization by adding a `SECURITY.md` file to each individual repository.
 
 b) By editing the security policy in the organization's `Code Security and analysis` settings
 
 c) Default security policies can only be set by GitHub support
 
-d) You can set a default security policy for all repositories in `my-org` GitHub Organization by adding a `SECURITY.md` file to each individual repository.
+d) By creating a `SECURITY.md` file in the `my-org/.github` repository
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 By creating a `SECURITY.md` file in the `my-org/.github` repository
 
@@ -1562,13 +1562,13 @@ Q:: Which API endpoint can be used to retrieve a list of all Dependabot alerts f
 
 a) `GET /enterprises/{enterprise}/dependabot/alerts`
 
-b) `GET /orgs/{org}/dependabot/alerts`
+b) `GET /repos/{owner}/{repo}/dependabot/alerts`
 
-c) `GET /repos/{owner}/{repo}/dependabot/alerts`
+c) `GET /github/{enterprise}/dependabot/alerts`
 
-d) `GET /github/{enterprise}/dependabot/alerts`
+d) `GET /orgs/{org}/dependabot/alerts`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 `GET /enterprises/{enterprise}/dependabot/alerts`
 
@@ -1576,15 +1576,15 @@ Source: https://docs.github.com/en/rest/dependabot/alerts?apiVersion=2022-11-28#
 
 Q:: Which API endpoint can be used to retrieve a list of all secret scanning alerts for an organization?
 
-a) `GET /orgs/{org}/secret-scanning/alerts`
+a) `GET /repos/{owner}/{repo}/secret-scanning/alerts`
 
-b) `GET /enterprises/{enterprise}/secret-scanning/alerts`
+b) `GET /github/{org}/secret-scanning/alerts`
 
-c) `GET /repos/{owner}/{repo}/secret-scanning/alerts`
+c) `GET /orgs/{org}/secret-scanning/alerts`
 
-d) `GET /github/{org}/secret-scanning/alerts`
+d) `GET /enterprises/{enterprise}/secret-scanning/alerts`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 `GET /orgs/{org}/secret-scanning/alerts`
 
@@ -1592,15 +1592,15 @@ Source: https://docs.github.com/en/rest/secret-scanning/secret-scanning?apiVersi
 
 Q:: Which API endpoint can be used to retrieve a list of all code scanning alerts for a repository?
 
-a) `GET /repos/{owner}/{repo}/code-scanning/alerts`
+a) `GET /github/{repo}/code-scanning/alerts`
 
-b) `GET /orgs/{org}/{repo}/code-scanning/alerts`
+b) `GET /repos/{owner}/{repo}/code-scanning/alerts`
 
-c) `GET /{enterprise}/{org}/{repo}/code-scanning/alerts`
+c) `GET /orgs/{org}/{repo}/code-scanning/alerts`
 
-d) `GET /github/{repo}/code-scanning/alerts`
+d) `GET /{enterprise}/{org}/{repo}/code-scanning/alerts`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 `GET /repos/{owner}/{repo}/code-scanning/alerts`
 
@@ -1608,15 +1608,15 @@ Source: https://docs.github.com/en/rest/code-scanning/code-scanning?apiVersion=2
 
 Q:: Which of these statements best defines a vulnerable dependency?
 
-a) A vulnerable dependency is dependency that a project relies on, which contains security flaws that could potentially be exploited, compromising the project's security.
+a) A vulnerable dependency is dependency that a project relies on, which is not verified by GitHub.
 
-b) A vulnerable dependency is dependency that a project relies on, which has not been updated in a long time.
+b) A vulnerable dependency is dependency that a project relies on, which contains security flaws that could potentially be exploited, compromising the project's security.
 
-c) A vulnerable dependency is dependency that a project relies on, which is not widely used or popular.
+c) A vulnerable dependency is dependency that a project relies on, which has not been updated in a long time.
 
-d) A vulnerable dependency is dependency that a project relies on, which is not verified by GitHub.
+d) A vulnerable dependency is dependency that a project relies on, which is not widely used or popular.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 A vulnerable dependency is dependency that a project relies on, which contains security flaws that could potentially be exploited, compromising the project's security.
 
@@ -1628,11 +1628,11 @@ a) It's a Dependabot feature that automatically creates pull requests to update 
 
 b) It's a Dependabot feature that creates a list of vulnerable dependencies in your repository.
 
-c) It's a Dependabot feature that creates alerts when a security vulnerability is detected in one of your dependencies.
+c) It's a Dependabot feature that automatically creates pull requests to update dependencies in your repository when they release a new version.
 
-d) It's a Dependabot feature that automatically creates pull requests to update dependencies in your repository when they release a new version.
+d) It's a Dependabot feature that creates alerts when a security vulnerability is detected in one of your dependencies.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 It's a Dependabot feature that automatically creates pull requests to update vulnerable dependencies in your repository.
 
@@ -1640,15 +1640,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-security-
 
 Q:: Dependabot Alerts are enabled by default on:
 
-a) Dependabot Alerts are not enabled by default on any repositories.
+a) Only public repositories.
 
-b) Only public repositories.
+b) All repositories.
 
-c) All repositories.
+c) Only private repositories.
 
-d) Only private repositories.
+d) Dependabot Alerts are not enabled by default on any repositories.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 Dependabot Alerts are not enabled by default on any repositories.
 
@@ -1656,15 +1656,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-alerts/ab
 
 Q:: Who can enable Dependabot alerts on a repository?
 
-a) Repository owners and people with admin access
+a) Only the repository owner
 
-b) Only the repository owner
+b) Dependabot alerts are enabled on all repositories by GitHub and can't be disabled or enabled by any individual.
 
-c) Dependabot alerts are enabled on all repositories by GitHub and can't be disabled or enabled by any individual.
+c) Dependabot alerts are enabled by adding a GitHub Action to the repository, so anyone with write access to the repository can enable them.
 
-d) Dependabot alerts are enabled by adding a GitHub Action to the repository, so anyone with write access to the repository can enable them.
+d) Repository owners and people with admin access
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 Repository owners and people with admin access
 
@@ -1672,17 +1672,17 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-alerts/ab
 
 Q:: What's the lowest access level needed to see Dependabot alerts in a repository within an organization?
 
-a) Write
+a) Admin
 
 b) Read
 
-c) Maintain
+c) Write
 
-d) Triage
+d) Maintain
 
-e) Admin
+e) Triage
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Write
 
@@ -1690,15 +1690,15 @@ Source: https://docs.github.com/en/organizations/managing-user-access-to-your-or
 
 Q:: To enable Dependabot Alerts on all repositories in an organization you should:
 
-a) Go to the organization's `Code security and analysis` settings and enable Dependabot Alerts for all repositories at once.
+a) On all repositories in the organization - run the `actions/enable-ghas` GitHub Action with `alerts` parameter set to `true`
 
 b) Make all repositories in the organization private.
 
-c) On all repositories in the organization - run the `actions/enable-ghas` GitHub Action with `alerts` parameter set to `true`
+c) Go to the organization's `Code security and analysis` settings and enable Dependabot Alerts for all repositories at once.
 
 d) Create a script that will enable Dependabot Alerts on all repositories in the organization.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Go to the organization's `Code security and analysis` settings and enable Dependabot Alerts for all repositories at once.
 
@@ -1708,44 +1708,44 @@ Q:: Which of these is a valid `dependabot.yml` configuration file?
 
 a) Code block (yaml):
 version: 2
-updates:
-\- package-ecosystem: "npm"
-directory: "/"
-schedule:
-interval: "daily"
+    config:
+    - package-ecosystem: "npm"
+        directory: "/"
+        schedule:
+          interval: "daily"
 
 b) Code block (yaml):
 version: 2
-config:
-\- directory: "/"
-schedule:
-interval: "daily"
+    updates:
+    - package-ecosystem: "npm"
+        directory: "/"
+        schedule:
+          interval: "daily"
 
 c) Code block (yaml):
 version: 2
-updates:
-\- package-ecosystem: "npm"
-directory: "/"
-schedule:
-interval: "everyday"
+    updates:
+    - package-ecosystem: "npm"
+        directory: "/"
+        schedule:
+          interval: "everyday"
 
 d) Code block (yaml):
 version: 2
-config:
-\- package-ecosystem: "npm"
-directory: "/"
-schedule:
-interval: "daily"
+    config:
+    - directory: "/"
+        schedule:
+          interval: "daily"
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Code block (yaml):
 version: 2
-updates:
-\- package-ecosystem: "npm"
-directory: "/"
-schedule:
-interval: "daily"
+    updates:
+    - package-ecosystem: "npm"
+        directory: "/"
+        schedule:
+          interval: "daily"
 
 Source: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
@@ -1753,15 +1753,15 @@ Q:: Which of these is not a GitHub supported channel for receiving Dependabot al
 
 a) SMS/Call
 
-b) github.com notification inbox
+b) GitHub Mobile
 
-c) GitHub Mobile
+c) github.com notification inbox
 
-d) GitHub CLI
+d) Email
 
-e) Email
+e) GitHub CLI
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 SMS/Call
 
@@ -1769,15 +1769,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-alerts/co
 
 Q:: What are Dependabot auto-triage rules?
 
-a) It's a feature that allows Dependabot to automatically dismiss Dependabot alerts that match certain criteria.
+a) Auto-triage rules are defined in the `dependabot.yml` configuration file to specify which package managers should be used to scan your project for vulnerabilities.
 
-b) Auto-triage rules are defined in the `dependabot.yml` configuration file to specify which package managers should be used to scan your project for vulnerabilities.
+b) Auto triage rules define how often Dependabot should scan your project for vulnerabilities.
 
-c) Dependabot auto-triage rules are used for automatically deleting old dependencies in your project.
+c) It's a feature that allows Dependabot to automatically dismiss Dependabot alerts that match certain criteria.
 
-d) Auto triage rules define how often Dependabot should scan your project for vulnerabilities.
+d) Dependabot auto-triage rules are used for automatically deleting old dependencies in your project.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 It's a feature that allows Dependabot to automatically dismiss Dependabot alerts that match certain criteria.
 
@@ -1785,15 +1785,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-auto-tria
 
 Q:: How can you automate dismissing low severity Dependabot alerts?
 
-a) By using Dependabot's auto-triage rules.
+a) By setting the `severity` field in `dependabot.yml` file to high
 
-b) By setting the `severity` field in `dependabot.yml` file to high
+b) By using Dependabot's auto-triage rules.
 
-c) By removing all dependencies that cause low severity alerts
+c) By setting the `dismiss-severity` field in `dependabot.yml` file to low
 
-d) By setting the `dismiss-severity` field in `dependabot.yml` file to low
+d) By removing all dependencies that cause low severity alerts
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 By using Dependabot's auto-triage rules.
 
@@ -1801,15 +1801,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-auto-tria
 
 Q:: To enable Dependabot security updates on all repositories in an organization you should:
 
-a) Go to the organization's `Code security and analysis` settings and enable Dependabot Security Updates for all repositories at once.
+a) Make all repositories in the organization private.
 
-b) Make all repositories in the organization private.
+b) Run the `actions/enable-ghas` GitHub Action with `security-updates` parameter set to `true` on all repositories in the organization.
 
-c) Run the `actions/enable-ghas` GitHub Action with `security-updates` parameter set to `true` on all repositories in the organization.
+c) Go to the organization's `Code security and analysis` settings and enable Dependabot Security Updates for all repositories at once.
 
 d) Create a script that will enable Dependabot Security Updates on all repositories in the organization.
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 Go to the organization's `Code security and analysis` settings and enable Dependabot Security Updates for all repositories at once.
 
@@ -1825,7 +1825,7 @@ c) Dependabot Security Updates
 
 d) Dependabot Version Updates
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 Dependency Review
 
@@ -1833,9 +1833,9 @@ Source: https://docs.github.com/en/code-security/supply-chain-security/understan
 
 Q:: You need GitHub Actions enabled for
 
-a) Dependency Review
+a) Dependabot Security Updates
 
-b) Dependabot Security Updates
+b) Dependency Review
 
 c) Dependabot Version Updates
 
@@ -1843,7 +1843,7 @@ d) All of these
 
 e) None of these
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 Dependency Review
 
@@ -1851,15 +1851,15 @@ Source: https://docs.github.com/en/code-security/dependabot/dependabot-version-u
 
 Q:: What does `CVSS` stand for?
 
-a) `Common Vulnerability Scoring System`
+a) `Cybersecurity Validation Scoring Scheme`
 
-b) `Code Verification Security System`
+b) `Common Vulnerability Scoring System`
 
-c) `Critical Vulnerability Scanning Service`
+c) `Code Verification Security System`
 
-d) `Cybersecurity Validation Scoring Scheme`
+d) `Critical Vulnerability Scanning Service`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** B</span>
 
 `Common Vulnerability Scoring System`
 
@@ -1875,7 +1875,7 @@ c) `Cybersecurity Verification Entity`
 
 d) `Code Validation and Enumeration`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** A</span>
 
 `Common Vulnerabilities and Exposures`
 
@@ -1883,15 +1883,15 @@ Source: https://docs.github.com/en/code-security/security-advisories/working-wit
 
 Q:: What does `CWE` stand for?
 
-a) `Common Weakness Enumeration`
+a) `Cybersecurity Weakness Enumeration`
 
-b) `Cybersecurity Weakness Enumeration`
+b) `Critical Web Elements`
 
 c) `Code Wrapping Engine`
 
-d) `Critical Web Elements`
+d) `Common Weakness Enumeration`
 
-A:: **Answer:** A
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 `Common Weakness Enumeration`
 
@@ -1901,19 +1901,19 @@ Q:: Which Dependabot comment command will get a pull request successfully comple
 
 a) `@dependabot close`
 
-b) `@dependabot merge`
+b) `@dependabot cancel merge`
 
-c) `@dependabot cancel merge`
+c) `@dependabot merge`
 
 d) `@dependabot rebase`
 
-A:: **Answer:** B
+A:: <span style="color: #f800f8">**Answer:** C</span>
 
 `@dependabot merge`
 
 Source: https://docs.github.com/en/code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates#managing-dependabot-pull-requests-with-comment-commands
 
-Q:: Jobs that run on macOS runners that GitHub hosts consume minutes at \_\_ rate as Linux runners consume
+Q:: Jobs that run on macOS runners that GitHub hosts consume minutes at __ rate as Linux runners consume
 
 a) the same
 
@@ -1923,8 +1923,10 @@ c) 5x
 
 d) 10x
 
-A:: **Answer:** D
+A:: <span style="color: #f800f8">**Answer:** D</span>
 
 10x
 
 Source: https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#minute-multipliers
+
+
